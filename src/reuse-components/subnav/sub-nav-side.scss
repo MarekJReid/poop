@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+.sub-side-nav {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+    .side-nav-box {
+      width: 20vw;
+      background: peru;
+      .nav-links {
+        ul {
+          list-style-type: none;
+        }
+      }
+  }
+
+  .right-content-box-landing {
+    height: 100%;
+    width: 80vw;
+    background: palevioletred;
+  }
+  .right-content-box2 {
+    height: 100%;
+    width: 80vw;
+    background: paleturquoise;
+  }
+  .right-content-box3 {
+    height: 100%;
+    width: 80vw;
+    background: palegreen;
+  }
+  .right-content-box4 {
+    height: 100%;
+    width: 80vw;
+    background: palegoldenrod;
+  }
+ 
+}
+
+
+.page {
+  opacity: 0;
+}
+.my-node-enter {
+  display: none;
+  background: blue;
+  height: 10vw;
+}
+.my-node-enter-active {
+  opacity: 0;
+ 
+}
+.my-node-enter-done {
+  opacity: 0;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
